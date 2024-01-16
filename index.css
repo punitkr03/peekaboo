@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dd79cc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 2rem;
+  transform: translateY(5%);
+  margin-bottom: 20px;
+  width: 100%;
+  height: 80vh;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.date-img {
+  margin: 10px;
+}
+
+.yes-btn {
+  text-decoration: none;
+  background-color: #26eb47;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+}
+.no-btn {
+  position: absolute;
+  text-decoration: none;
+  background-color: red;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+#img2 {
+  display: none;
+}
+
+.back-btn {
+  text-decoration: none;
+  background-color: cyan;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  display: none;
+}
+
+.back-btn:hover {
+  background-color: #01c3c3;
+  cursor: pointer;
+}
+.yes-btn:hover {
+  background-color: #1dda3c;
+  cursor: pointer;
+}
+.no-btn:hover {
+  cursor: pointer;
+}

@@ -8,8 +8,6 @@ const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = no.getBoundingClientRect();
 const decide = document.getElementById("decide-grp");
 
-const randomGenerator = () => {};
-
 yes.addEventListener("click", () => {
   img1.style.display = "none";
   img2.style.display = "block";
@@ -28,7 +26,6 @@ no.addEventListener("mouseover", () => {
     Math.floor(Math.random() * (wrapperRect.height - noBtnRect.height)) + 1;
   no.style.left = i + "px";
   no.style.top = j + "px";
-  console.log(no);
 });
 no.addEventListener("click", () => {
   const i =
@@ -37,5 +34,4 @@ no.addEventListener("click", () => {
     Math.floor(Math.random() * (wrapperRect.height - noBtnRect.height)) + 1;
   no.style.left = i + "px";
   no.style.top = j + "px";
-  console.log(no);
 });
